@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav button {
-    padding: 10px;
+    padding: 10px 25px;
     background-color: var(--Bright-Red);
     border-radius: 20px;
     border: none;
@@ -158,57 +158,236 @@ main{
     flex-direction: column;
     align-items:start;
     gap: 40px;
-    
    
 }
 
-.item-1, .item-2, .item-3 {
+/* .item-1, .item-2, .item-3 {
    display: flex;
    flex-direction: column;
    align-items: start;
    gap: 10px;
-}
+} */
 
 
 .first-part {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 80px;
-    
+    gap: 60px;
+    width: 100%;
 }
 
 
 .first-part h1 {
-    width: 60px;
     background-color: var(--Bright-Red);
     font-size: 15px;
-    border-radius: 40%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-radius: 20px;
+    padding: 10px 30px;
     color: white;
 }
 
 .first-part h4 {
     color: var(--Dark-Blue);
+    text-align: start;
 }
 
 .second-part {
     display: flex;
     flex-direction: row;
     align-items: start;
-    gap: 30px;
-    
-    
+    gap: 50px;   
+    width: 100%;
 }
 
 .second-part h1 {
     visibility: hidden;
+    width: 15%;
 }
  .second-part p {
+    text-align: start;
     font-size: small;
-    line-height: 25px;
+    line-height: 1.8;
     color: var(--Dark-Grayish-Blue);
+    width: 60%;
  }
+
+ .main-section2 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+ }
+
+ .main-section2 h1 {
+    text-align: center;
+    color: var(--Dark-Blue);
+    font-size: 25px;
+ }
+
+ .review-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 40px;
+ }
+
+ .part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--Very-Light-Gray);
+    padding: 0 20px 20px ;
+ }
+
+ .part-2 img {
+    width: 30%;
+    margin-top: -40px;
+ }
+
+ .part-2 h4 {
+    color: var(--Dark-Blue);
+ }
+
+ .part-2 p {
+    font-size: small;
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+ }
+
+ .main-section2 button {
+    padding: 10px 25px;
+    background-color: var(--Bright-Red);
+    border-radius: 20px;
+    border: none;
+ }
+
+.main-section2 button a {
+    font-size: smaller;
+    color: var(--Very-Light-Gray);
+    text-decoration: none;
+}
+/* 
+.main-section3 {
+    height: 70vh;
+} */
+
+.section-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 80px;
+    gap: 350px;
+    background-color: var(--Bright-Red);
+}
+
+.section-holder h1 {
+    font-size: xx-large;
+    color: var(--Very-Light-Gray);
+}
+
+.section-holder button {
+    padding: 10px 25px;
+    background-color: var(--Very-Light-Gray);
+    border-radius: 20px;
+    border: none;
+}
+
+.section-holder button a {
+    font-size: smaller;
+    color: var(--Bright-Red);
+    text-decoration: none;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    /* gap: 60px ; */
+    justify-content: space-between;
+    padding: 80px;
+    background-color: var(--Very-Dark-Blue);
+}
+
+.display{
+    display: none;
+}
+
+.footer-part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 60px; ;
+    width: 20%;
+}
+
+.footer-part1 img {
+    filter: invert(80%);
+}
+
+.social-media {
+    font-size: 25px;
+    color: var(--Very-Light-Gray);
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-part2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    width: 30%;
+}
+
+.footer-part2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.footer-part2 ul li {
+    list-style: none;
+    /* width: 100%; */
+}
+
+.footer-part2 ul li a {
+    color: var(--Very-Light-Gray);
+    text-decoration: none;
+}
+
+.footer-part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 60px;
+}
+
+.footer-part3 p {
+    color: var(--Very-Light-Gray);
+}
+
+.footer-part3 input {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footer-part3 button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: var(--Bright-Red);
+}
+
+.footer-part3 button a {
+    text-decoration: none;
+    color: var(--Very-Light-Gray);
+}
