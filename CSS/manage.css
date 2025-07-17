@@ -31,7 +31,7 @@ nav {
     flex-direction: row;
     align-items: center ;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 10px ;
     padding: 20px 120px ; 
 }
 
@@ -276,13 +276,15 @@ main{
 .section-holder {
     display: flex;
     flex-direction: row;
-    align-items: start;
-    padding: 80px;
-    gap: 350px;
+    align-items: center;
+    padding: 50px 100px;
+    justify-content: space-between;
+    /* gap: 500px; */
     background-color: var(--Bright-Red);
 }
 
 .section-holder h1 {
+    
     font-size: xx-large;
     color: var(--Very-Light-Gray);
 }
@@ -307,7 +309,7 @@ footer{
     align-items: start;
     /* gap: 60px ; */
     justify-content: space-between;
-    padding: 80px;
+    padding: 40px;
     background-color: var(--Very-Dark-Blue);
 }
 
